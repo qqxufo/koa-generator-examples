@@ -23,7 +23,7 @@ class Polygon{
 }
 ```  
 ## 给class增加成员属性  
-在ES6中， 你可以通过getter和setter方法，给类增加属性。如果属性只有getter方法，那么它就是一个只读属性；如果属性同时又setter和getter方法，那么它就是一个可读写属性。请看下面的例子  
+在ES6中， 你可以通过getter和setter方法，给类增加属性。如果属性只有getter方法，那么它就是一个只读属性；如果属性同时有setter和getter方法，那么它就是一个可读写属性。请看下面的例子  
 **注意属性`name`和`_name`**  
 因为我们定义了 name 的读写器，而没有定义 _name 的读写器，所以访问这两个属性的结果是不同的。  
 ```javascript  
